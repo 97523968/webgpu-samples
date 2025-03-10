@@ -40,6 +40,7 @@ import timestampQuery from '../sample/timestampQuery/meta';
 import transparentCanvas from '../sample/transparentCanvas/meta';
 import twoCubes from '../sample/twoCubes/meta';
 import videoUploading from '../sample/videoUploading/meta';
+import panoramic from '../sample/panoramic/meta';
 import volumeRenderingTexture3D from '../sample/volumeRenderingTexture3D/meta';
 import wireframe from '../sample/wireframe/meta';
 import worker from '../sample/worker/meta';
@@ -151,6 +152,7 @@ export const pageCategories: PageCategory[] = [
       transparentCanvas,
       multipleCanvases,
       videoUploading,
+      panoramic,
       worker,
     },
   },
