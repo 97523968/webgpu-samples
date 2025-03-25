@@ -37,6 +37,7 @@ import stencilMask from '../sample/stencilMask/meta';
 import textRenderingMsdf from '../sample/textRenderingMsdf/meta';
 import texturedCube from '../sample/texturedCube/meta';
 import timestampQuery from '../sample/timestampQuery/meta';
+import toneMapping from '../sample/toneMapping/meta';
 import transparentCanvas from '../sample/transparentCanvas/meta';
 import twoCubes from '../sample/twoCubes/meta';
 import videoUploading from '../sample/videoUploading/meta';
@@ -81,6 +82,7 @@ export const pageCategories: PageCategory[] = [
       instancedCube,
       fractalCube,
       cubemap,
+      toneMapping,
     },
   },
 
