@@ -52,11 +52,11 @@ fn aces_tonemap(color: vec3<f32>) -> vec3<f32> {
         vec3<f32>(-0.07367, -0.00605, 1.07602)
     );
 
-    // Apply tone mapping and gamma correction
+    // Apply tone mapping
     let v = m1 * color;
     let a = v * (v + 0.0245786) - 0.000090537;
     let b = v * (0.983729 * v + 0.4329510) + 0.238081;
-    return pow(clamp(m2 * (a / b), vec3f(0.0), vec3f(1.0)), vec3f(1.0 / 2.2));
+    return clamp(m2 * (a / b), vec3f(0.0), vec3f(1.0));
 }
 
 @fragment
